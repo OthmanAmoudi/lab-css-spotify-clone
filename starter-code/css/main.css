@@ -51,7 +51,7 @@ nav li a {
 }
 
 .padding-both{
-    padding:10px 30px;
+    padding:10px 30px 10px 30px;
 }
 
 .middle{
@@ -138,4 +138,87 @@ nav li a {
     font-family: 'Lato',Verdana, sans-serif;
     font-weight: 900;
     color:#00B172;
+}
+
+/* --------------------------------------- */
+/* App Page */
+/* --------------------------------------- */
+
+.section-3 main{
+    padding: 80px 60px;
+    background-color: #00B172;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.section-3 div {
+    color:#FFF;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+
+}
+
+.section-3 p {
+    margin-top: 90px;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+}
+
+.section-3 h1 {
+    font-family: 'Raleway', sans-serif;
+    height: 42px;
+    font-weight: 700;
+}
+
+.img-app{
+    height: 550px;
+    width: 310px;
+    margin-left: 60px;
+}
+.yeezy{
+    grid-column: span 2;
+}
+
+.yeezy h1{
+    width: 470px;
+    border-bottom: 4px solid white;
+}
+
+.section-3 .logo{
+    grid-row: span 3;
+    width: auto;
+    height: 350px;
+}
+.section-3 .logo > img{
+    width: 120px;
+    height: 120px;
+}
+
+/* --------------------------------------- */
+/* Footer */
+/* --------------------------------------- */
+footer{
+    margin: 150px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+
+.cloud{
+    z-index: -1;
+    background-color:#FFF;
+}
+
+footer div{
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: -3px;
+    font-family: 'Lato',Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+#icon {
+    color: #00B172;
+    font-size: 2.5em;
+    padding: 5px 8px;
 }
